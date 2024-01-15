@@ -1,0 +1,66 @@
+body {
+    background: #26313f;
+}
+
+.container, .container-2 {
+    width: 145px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 1px solid var(--3D1-Stroke, #192028);
+    background: var(--3D1, linear-gradient(283deg, #26313F 0%, #192028 100%));
+    box-shadow: 7px 7px 16px 0px rgba(0, 0, 0, 0.25), -4px -4px 16px 0px #26313F, 4px 4px 4px 0px #192028 inset;
+    display: flex;
+    cursor: pointer;
+}
+
+.container-2 {
+    display: none;
+}
+
+.button-1 {
+    width: 36.615px;
+    height: 62.377px;
+    flex-shrink: 0;
+}
+
+.button-2 {
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+}
+
+.button-2 p {
+    margin-left: -100px;
+    color: #26313f;
+}
+
+.button-2-svg {
+    margin-left: 30px;
+}
+
+.button-3 {
+    display: flex;
+    margin-right: -40px;
+    z-index: 9;
+    align-items: center;
+}
+
+.button-3 p {
+    background: var(--Button, linear-gradient(93deg, #26313F 10.62%, #495D75 123.17%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: -45px;
+    margin-left: 20px;
+    z-index: 9;
+}
+
+.button-3-svg-1 {
+    margin-left: 75px;
+    z-index: 9;
+}
+
+.button-3-svg-2 {
+    margin-left: -105px;
+}
